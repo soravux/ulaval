@@ -1,0 +1,6 @@
+{
+  "meteor": {},
+  "packages": {
+    "bootstrap3-datepicker": {}
+  }
+}
