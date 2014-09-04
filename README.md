@@ -3,6 +3,8 @@ ulaval
 
 ##Local Install
 
+>Note this is for a mac os x env. it should work under another *nix based distro but I can't say if it will work for a windows env. because I haven't tested it. 
+
 Step 1
 
 Installing Telescope (web wrapper)
