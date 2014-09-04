@@ -41,6 +41,8 @@ meteor
 
 Step 4
 
+Sign up to get an admin account
+
 Enjoy !
 
 ##Deploying on server
