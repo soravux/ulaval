@@ -1,45 +1,38 @@
-ulaval
-======
+>Note These installation instructions are made for MacOS X or *nix based systems.
 
-##Local Install
+Dependencies
+============
 
->Note this is for a mac os x env. it should work under another *nix based distro but I can't say if it will work for a windows env. because I haven't tested it. 
 
-Step 1
+Node.js
+-------
 
-Installing Telescope (web wrapper)
+Go to http://nodejs.org/download/ and download and extract the appropriate version for your system. Add the `bin` directory to your PATH environment variable.
 
-```bash
-git clone git@github.com:TelescopeJS/Telescope.git
-```
-
-Step 2
-
-Installing Meteorite (web framework) we will need npm for that
-
-If you don't have npm there you go
+npm
+---
 
 ```bash
 curl http://npmjs.org/install.sh | sh
 ```
 
-then install meteorite
+Meteorite
+---------
+
+Meteorite is used as the web framework. It can be installed as such:
 
 ```bash
 npm install -g meteorite
 ```
 
-Step 3 
-
-cd into the apetrend dir  
-
-run 
+ApeTrend
+========
 
 ```bash
+git clone https://github.com/ApeTrend/ulaval.git
+cd ulaval/apetrend
 meteor
 ```
-
-Step 4
 
 Sign up to get an admin account
 
