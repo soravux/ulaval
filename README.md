@@ -13,11 +13,12 @@ Go to http://nodejs.org/download/ and download and extract the appropriate versi
 curl http://npmjs.org/install.sh | sh
 ```
 
-#####Meteorite
+#####Meteor
 
-Meteorite is used as the web framework. It can be installed as such:
+Meteor is used as the web framework. It is required alongside meteorite, its package manager. They can be installed as such:
 
 ```bash
+curl https://install.meteor.com/ | sh
 npm install -g meteorite
 ```
 
