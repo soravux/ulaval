@@ -1,23 +1,19 @@
 >Note These installation instructions are made for MacOS X or *nix based systems.
 
-Dependencies
-============
+##Installation
+###Dependencies
 
-
-Node.js
--------
+#####Node.js
 
 Go to http://nodejs.org/download/ and download and extract the appropriate version for your system. Add the `bin` directory to your PATH environment variable.
 
-npm
----
+#####npm
 
 ```bash
 curl http://npmjs.org/install.sh | sh
 ```
 
-Meteorite
----------
+#####Meteorite
 
 Meteorite is used as the web framework. It can be installed as such:
 
@@ -25,8 +21,7 @@ Meteorite is used as the web framework. It can be installed as such:
 npm install -g meteorite
 ```
 
-ApeTrend
-========
+###ApeTrend
 
 ```bash
 git clone https://github.com/ApeTrend/ulaval.git
