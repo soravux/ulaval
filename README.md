@@ -19,7 +19,6 @@ Meteor is used as the web framework. It is required alongside meteorite, its pac
 
 ```bash
 curl https://install.meteor.com/ | sh
-npm install -g meteorite
 ```
 
 ###ApeTrend
